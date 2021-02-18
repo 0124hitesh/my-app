@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+//this.props.title
 class Class_Component extends React.Component{
     constructor(props){
         super(props)
