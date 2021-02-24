@@ -1,0 +1,14 @@
+section{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 70vw;
+}
+button{
+    margin: 5px;
+}
+h1{
+    font-size: 45px;
+}
+/* p{
+    width: 50vw;
+} */

@@ -11,7 +11,8 @@ import Test from './LifeCycle/Test_Unmount';
 
 import RS from './ReactState';
 
-//import Counter from './Practical/Practical8_Counter';
+import Counter from './Practical/Practical8_Counter';
+import More from './Practical/Practical8_b';
 
 function App() {
   return (
@@ -26,7 +27,10 @@ function App() {
     {/* <LifeCycle/>
     <Test/> */}
 
-    <RS namee='hitesh' mob={5454545}/>
+    {/* <RS namee='hitesh' mob={5454545}/> */}
+
+    {/* <Counter counter={0}/> */}
+    <More/>
     </>
   );
 }
