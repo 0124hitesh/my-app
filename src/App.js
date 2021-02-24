@@ -6,15 +6,20 @@ import React from 'react';
 import FunctionalComponent from './Components/FunctionalComponent';
 import {Class_Component,Class_Component2} from './Components/ClassComponent';
 
+import LifeCycle from './LifeCycle/LifeCycle';
+import Test from './LifeCycle/Test_Unmount'
+
 function App() {
   return (
     <>
-    <h1>Heading 1</h1>
+    {/* <h1>Heading 1</h1>
     <p>this is a para</p>
     <FunctionalComponent title="Title_xyz__1" content="Conetent_XYZ__1"/>
     <FunctionalComponent title="Title_xyz__2" content="Conetent_XYZ__2"/>
     <Class_Component/>
-    <Class_Component2/>
+    <Class_Component2/> */}
+    <LifeCycle/>
+    <Test/>
     </>
   );
 }
