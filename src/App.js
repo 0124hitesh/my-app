@@ -29,7 +29,7 @@ function App() {
 
     {/* <RS namee='hitesh' mob={5454545}/> */}
 
-    {/* <Counter counter={0}/> */}
+    <Counter counter={0}/>
     <More/>
     </>
   );
