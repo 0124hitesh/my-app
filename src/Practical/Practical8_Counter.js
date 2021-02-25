@@ -32,6 +32,8 @@ export default class Counter extends Component{
     render(){
         return(
             <section>
+            <h1 id="h">Ques -1</h1>
+            <hr></hr>
             <h1>{this.state.counter}</h1>
             <button onClick={this.inc}>Increase</button>
             <button onClick={ ()=>{this.setState({counter:0})} }>Reset</button>

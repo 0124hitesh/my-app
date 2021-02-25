@@ -21,6 +21,7 @@ export default class More extends Component{
     render(){
         return(
             <section>
+            <h1 id="h">Ques -2</h1><hr></hr>
             <h1>Welcome to Beta-Labs</h1>
             <h3>Click on button to see More | Less</h3>
             <p>{this.state.content}</p>
