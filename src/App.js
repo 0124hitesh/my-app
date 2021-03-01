@@ -14,6 +14,8 @@ import RS from './ReactState';
 import Counter from './Practical/Practical8_Counter';
 import More from './Practical/Practical8_b';
 
+import ReactHooks from './Components/ReactHooks'
+
 function App() {
   return (
     <>
@@ -29,8 +31,8 @@ function App() {
 
     {/* <RS namee='hitesh' mob={5454545}/> */}
 
-    <Counter counter={0}/>
-    <More/>
+    <ReactHooks/>
+
     </>
   );
 }
