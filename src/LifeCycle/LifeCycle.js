@@ -11,6 +11,16 @@ export default class LifeCycle extends Component{
     componentDidMount(){
         console.log("componentDidMount");
     }
+
+    componentWillReceiveProps(){
+        console.log("componentWillReceiveProps");
+    }
+    componentWillUpdate(){
+        console.log("componentWillUpdate");
+    }
+    // shouldComponentUpdate(){
+    //     console.log("shouldComponentUpdate");
+    // }
     componentDidUpdate(){
         console.log('componentDidUpdate');
     }
