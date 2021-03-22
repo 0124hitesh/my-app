@@ -16,6 +16,8 @@ import More from './Practical/Practical8_b';
 
 import ReactHooks from './Components/ReactHooks'
 
+import Event from './events'
+
 function App() {
   return (
     <>
@@ -31,7 +33,10 @@ function App() {
 
     {/* <RS namee='hitesh' mob={5454545}/> */}
 
-    <ReactHooks/>
+    {/* <ReactHooks/> */}
+
+    <Event/>
+
 
     </>
   );
