@@ -18,6 +18,8 @@ import ReactHooks from './Components/ReactHooks'
 
 import Event from './events'
 
+import Table from './Practical/Practical_9';
+
 function App() {
   return (
     <>
@@ -35,7 +37,9 @@ function App() {
 
     {/* <ReactHooks/> */}
 
-    <Event/>
+    {/* <Event/> */}
+
+    <Table/>
 
 
     </>
