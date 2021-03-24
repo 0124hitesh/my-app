@@ -6,8 +6,15 @@ export default function Table(){
     const [name, setName]=useState("");
     const [pass, setPass]=useState("");
     const [mail, setMail]=useState("");
-    const [count, setCount]=useState(1);
-    var [rows, setRow]=useState();
+    const [count, setCount]=useState(2);
+    var [rows, setRow]=useState(
+        <tr>
+                <th>1.</th>
+                <th>Hitesh</th>
+                <th>1@qwer</th>
+                <th>abc@gmail.com</th>
+            </tr>
+    );
 
     function f_name(e){
         setName(e.target.value);
