@@ -22,6 +22,8 @@ export default function Table(){
     }
 
     function addUser(e){
+        if(name==="" || pass==="" || mail===""){alert("Invalid Input");return;}
+
         setRow(
         <React.Fragment> 
             {rows}
@@ -35,9 +37,9 @@ export default function Table(){
         )
 
         setCount(count + 1);
-        setName();
-        setPass();
-        setMail();
+        setName("");
+        setPass("");
+        setMail("");
     }
     
     return(
