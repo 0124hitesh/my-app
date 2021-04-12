@@ -104,7 +104,6 @@ function Display2(){
 
         <Button variant="primary">React Bootstarp</Button>{' '}
         <button type="button" class="btn btn-primary">Bootstarp</button>
-        
     </>
     );
 
