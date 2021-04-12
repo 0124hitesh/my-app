@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-//import './App.css';
+import './App.css';
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
@@ -22,11 +22,13 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 // import Table from './Practical/Practical_9';
 
-import Navbar from './Navbar'
-import Home from './Practical/Home';
-import About from './Practical/About';
-import Contact from './Practical/Contact';
-import None from './Practical/p10_none';
+// import Navbar from './Navbar'
+// import Home from './Practical/Home';
+// import About from './Practical/About';
+// import Contact from './Practical/Contact';
+// import None from './Practical/p10_none';
+
+import {Display1, Display2} from './DisplayData';
 
 
 
@@ -51,7 +53,7 @@ function App() {
 
     {/* <Table/> */}
 
-    <Router>
+    {/* <Router>
       <Navbar/>
       <Switch>
         <Route exact path="/" component={Home}></Route>
@@ -59,9 +61,10 @@ function App() {
         <Route path="/Contact" component={Contact}></Route>
         <Route path="" component={None}></Route>
       </Switch>
-    </Router>
+    </Router> */}
 
-
+    {/* <Display1/> */}
+    <Display2/>
     </>
   );
 }
