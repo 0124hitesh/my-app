@@ -1,24 +1,34 @@
 import logo from './logo.svg';
 //import './App.css';
 import React from 'react';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+
 // if there is single component in FunctionalComponent then no need to specify exact component name and can write any name
 // import fcc from from './Components/FunctionalComponent';
-import FunctionalComponent from './Components/FunctionalComponent';
-import {Class_Component,Class_Component2} from './Components/ClassComponent';
+// import FunctionalComponent from './Components/FunctionalComponent';
+// import {Class_Component,Class_Component2} from './Components/ClassComponent';
 
-import LifeCycle from './LifeCycle/LifeCycle';
-import Test from './LifeCycle/Test_Unmount';
+// import LifeCycle from './LifeCycle/LifeCycle';
+// import Test from './LifeCycle/Test_Unmount';
 
-import RS from './ReactState';
+// import RS from './ReactState';
 
-import Counter from './Practical/Practical8_Counter';
-import More from './Practical/Practical8_b';
+// import Counter from './Practical/Practical8_Counter';
+// import More from './Practical/Practical8_b';
 
-import ReactHooks from './Components/ReactHooks'
+// import ReactHooks from './Components/ReactHooks'
 
-import Event from './events'
+// import Event from './events'
 
-import Table from './Practical/Practical_9';
+// import Table from './Practical/Practical_9';
+
+import Navbar from './Navbar'
+import Home from './Practical/Home';
+import About from './Practical/About';
+import Contact from './Practical/Contact';
+import None from './Practical/p10_none';
+
+
 
 function App() {
   return (
@@ -39,7 +49,17 @@ function App() {
 
     {/* <Event/> */}
 
-    <Table/>
+    {/* <Table/> */}
+
+    <Router>
+      <Navbar/>
+      <Switch>
+        <Route exact path="/" component={Home}></Route>
+        <Route path="/about" component={About}></Route>
+        <Route path="/Contact" component={Contact}></Route>
+        <Route path="" component={None}></Route>
+      </Switch>
+    </Router>
 
 
     </>
