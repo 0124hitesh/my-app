@@ -22,7 +22,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 // import Table from './Practical/Practical_9';
 
-// import Navbar from './Navbar'
+// import Navbar from './Navbar_prac10'
 // import Home from './Practical/Home';
 // import About from './Practical/About';
 // import Contact from './Practical/Contact';
