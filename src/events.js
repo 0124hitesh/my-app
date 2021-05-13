@@ -4,7 +4,7 @@ export default function Event(){
 
     const [name, setNamee]= useState({fname:"hitesh", lname:"sharma"});
 
-    // const upd=()=>{ }
+    // const upd=()=>{}
     function fna(e){
         console.log(e);
         console.log(e.target);
