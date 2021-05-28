@@ -28,8 +28,9 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 // import Contact from './Practical/Contact';
 // import None from './Practical/p10_none';
 
-import {Display1, Display2} from './DisplayData';
+// import {Display1, Display2} from './DisplayData';
 
+import React_Express from './React-Express';
 
 
 function App() {
@@ -64,7 +65,9 @@ function App() {
     </Router> */}
 
     {/* <Display1/> */}
-    <Display2/>
+    {/* <Display2/> */}
+
+    <React_Express/>
     </>
   );
 }
