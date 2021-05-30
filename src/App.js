@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+//import './App.css';
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
@@ -31,6 +31,8 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 // import {Display1, Display2} from './DisplayData';
 
 import React_Express from './React-Express';
+
+import Temp from './React-Express_2';
 
 
 function App() {
@@ -67,7 +69,9 @@ function App() {
     {/* <Display1/> */}
     {/* <Display2/> */}
 
-    <React_Express/>
+    {/* <React_Express/> */}
+
+    <Temp/>
     </>
   );
 }
