@@ -34,6 +34,7 @@ import React_Express from './React-Express';
 
 import Temp from './React-Express_2';
 
+import C from './Conditional_Rendering'
 
 function App() {
   return (
@@ -71,7 +72,8 @@ function App() {
 
     {/* <React_Express/> */}
 
-    <Temp/>
+    {/* <Temp/> */}
+    <C x={false}/>
     </>
   );
 }
