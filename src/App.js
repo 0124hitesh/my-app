@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import FileUpload from './fileUpload'
+
 // if there is single component in FunctionalComponent then no need to specify exact component name and can write any name
 // import fcc from from './Components/FunctionalComponent';
 // import FunctionalComponent from './Components/FunctionalComponent';
@@ -13,8 +16,8 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 // import RS from './ReactState';
 
-// import Counter from './Practical/Practical8_Counter';
-// import More from './Practical/Practical8_b';
+import Counter from './Practical/Practical8_Counter';
+import More from './Practical/Practical8_b';
 
 // import ReactHooks from './Components/ReactHooks'
 
@@ -53,6 +56,9 @@ function App() {
 
     {/* <ReactHooks/> */}
 
+    <Counter counter={0}/>
+    <More/>
+
     {/* <Event/> */}
 
     {/* <Table/> */}
@@ -73,7 +79,7 @@ function App() {
     {/* <React_Express/> */}
 
     {/* <Temp/> */}
-    <C x={false}/>
+    {/* <C x={false}/> */}
     </>
   );
 }
