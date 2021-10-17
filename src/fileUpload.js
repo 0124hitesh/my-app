@@ -1,7 +1,7 @@
 import React, {Component, useRef, useState} from 'react';
 import axios from 'axios';
 import FormData from 'form-data';
-import imageToBase64 from 'image-to-base64';
+// import imageToBase64 from 'image-to-base64';
 // import i from './z.jpg';
 
 function FileUpload(){
