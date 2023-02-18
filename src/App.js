@@ -39,6 +39,8 @@ import Temp from './React-Express_2';
 
 import C from './Conditional_Rendering'
 
+import MainAccordion from './accrodion/main';
+
 function App() {
   return (
     <>
@@ -56,8 +58,8 @@ function App() {
 
     {/* <ReactHooks/> */}
 
-    <Counter counter={0}/>
-    <More/>
+    {/* <Counter counter={0}/>
+    <More/> */}
 
     {/* <Event/> */}
 
@@ -80,6 +82,8 @@ function App() {
 
     {/* <Temp/> */}
     {/* <C x={false}/> */}
+
+      <MainAccordion/>
     </>
   );
 }
